@@ -1,0 +1,8 @@
+GUI SPACE
+DELAY 400
+STRING TERM
+ENTER
+DELAY 800
+STRING open -a "Safari" -g -j 'https://www.youtube.com/watch?v=YkADj0TPrJA&t=3m17s' && exit
+ENTER
+GUI m
