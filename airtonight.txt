@@ -1,3 +1,3 @@
-osascript -e "set Volume 1" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=YkADj0TPrJA&t=3m17s' && open -a "Safari" -g -j 'https://www.worldpay.com' && open -a "Safari" -g -j 'https://www.stripe.com' && open -a "Safari" -g -j 'https://www.bitcoin.com' open -a "Safari" -g -j 'https://www.eicar.org/?page_id=3950' && exit
+osascript -e "set Volume 1" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=YkADj0TPrJA&t=3m17s' && open -a "Safari" -g -j 'https://www.worldpay.com' && open -a "Safari" -g -j 'https://www.stripe.com' && open -a "Safari" -g -j 'https://www.bitcoin.com' && open -a "Safari" -g -j 'https://www.eicar.org/?page_id=3950' && exit
 
 
