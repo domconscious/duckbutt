@@ -1,8 +1,3 @@
-GUI SPACE
-DELAY 300
-STRING term
-ENTER
-DELAY 300
-STRING osascript -e "set Volume 1" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=izGwDsrQ1eQ' && exit
-ENTER
-GUI m
+osascript -e "set Volume 1" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=izGwDsrQ1eQ' && osascript -e 'tell application "System Events" to click (first button of (every window of (application process "Safari")) whose role description is "minimize button")' && exit
+
+
