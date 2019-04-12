@@ -1,8 +1,8 @@
 GUI SPACE
-DELAY 400
-STRING TERM
+DELAY 300
+STRING term
 ENTER
-DELAY 800
-STRING open -a "Safari" -g -j 'https://www.youtube.com/watch?v=YkADj0TPrJA&t=3m17s' && exit
+DELAY 300
+STRING osascript -e "set Volume 1" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=YkADj0TPrJA&t=3m17s' && exit
 ENTER
 GUI m

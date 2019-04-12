@@ -1,8 +1,1 @@
-GUI SPACE
-DELAY 400
-STRING TERM
-ENTER
-DELAY 800
-STRING open -a "Safari" -g -j 'https://www.youtube.com/watch?v=izGwDsrQ1eQ' && exit
-ENTER
-GUI m
+STRING osascript -e "set Volume 1" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=izGwDsrQ1eQ' && /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend
