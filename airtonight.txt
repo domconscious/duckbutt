@@ -1,1 +1,1 @@
-osascript -e "set Volume 10" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=YkADj0TPrJA&t=3m17s' && sleep 3s && osascript -e 'tell application "Finder" to sleep' && sleep 5s && exit
+osascript -e "set Volume 10" && open -a "Safari" -g -j 'https://www.youtube.com/watch?v=YkADj0TPrJA&t=3m17s' && sleep 6s && osascript -e 'tell application "Finder" to sleep' && sleep 10s && exit
