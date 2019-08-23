@@ -1,1 +1,1 @@
-osascript -e 'tell application "Finder" to sleep' && exit 
+osascript -e "set Volume 10" && say i am tired of this mouse
